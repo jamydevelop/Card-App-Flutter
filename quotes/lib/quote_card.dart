@@ -33,6 +33,7 @@ class QuoteCard extends StatelessWidget {
             ),
             SizedBox(height: 8.0),
             TextButton.icon(
+                //This will pass the Function as parameter
                 onPressed: () => delete(),
                 label: Text("delete quote"),
                 icon: Icon(Icons.delete),
